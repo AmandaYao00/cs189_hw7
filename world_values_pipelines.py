@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsRegressor
 k_nearest_neighbors_regression_pipeline = Pipeline(
         [
             # Apply scaling to k Nearest Neighbors Regression
-            ##### TODO(f): Add a 'scale' parameter that applies StandardScaler() #####
+            ##### TODO(g): Add a 'scale' parameter that applies StandardScaler() #####
             ('scale', StandardScaler()),
             ('knn', KNeighborsRegressor())
         ]
