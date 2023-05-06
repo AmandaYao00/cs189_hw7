@@ -5,5 +5,5 @@ regression_knn_parameters = {
 
     # Apply uniform weighting vs k for k Nearest Neighbors Regression
     ##### TODO(d): Change the weighting #####
-    'knn__weights': ['uniform']
+    'knn__weights': ['distance']
 }
